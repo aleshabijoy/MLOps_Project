@@ -1,0 +1,26 @@
+# requirements.txt
+
+# --- Core Data Science & ML ---
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# --- Automation & Orchestration ---
+apache-airflow==2.9.3
+celery
+redis
+
+# --- API & Web Serving ---
+fastapi
+uvicorn[standard]
+
+# --- Experiment Tracking ---
+mlflow
+
+# --- Recommended Tools ---
+optuna
+shap
+python-dotenv
+requests
+pytest
