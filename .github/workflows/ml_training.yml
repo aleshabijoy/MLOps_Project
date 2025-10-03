@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]     # Only when code is pushed to the "main" branch
  # Define the set of jobs to run
 jobs:
-  build:                     # Job name (you can rename it if needed)
+  build: ML Project                    # Job name (you can rename it if needed)
     runs-on: ubuntu-latest   # The VM environment to run this job (Ubuntu Linux)
       steps:                   # Ordered list of steps inside the job
             # Step 1: Checkout the repository code so it's available in the VM
